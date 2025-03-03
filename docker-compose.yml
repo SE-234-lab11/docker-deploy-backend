@@ -5,5 +5,5 @@ services:
     image: thipppharake/234-deploylab-backend:latest
     pull_policy: always
     ports:
-      - "8085:8080"
+      - "8085:80"
 #docker-compose

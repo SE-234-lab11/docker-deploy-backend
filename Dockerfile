@@ -2,7 +2,7 @@ FROM openjdk:16-jdk-alpine
 
 RUN addgroup -S spring && adduser -S spring -G spring
 
-EXPOSE 8080
+EXPOSE 80
 
 ENV JAVA_PROFILE prod
 
